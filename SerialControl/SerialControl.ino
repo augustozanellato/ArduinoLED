@@ -41,7 +41,7 @@ void loop() {
        }
     }
     
-    /*Listen for an smei-colon
+    /*Listen for an semi-colon
       to calculate the answer and send it back to the
       serial monitor screen*/
     if(byteRead==59){
