@@ -1,6 +1,6 @@
 import serial
 import colorsys
-ser = serial.Serial('/dev/tty.usbmodem1411')
+ser = serial.Serial('/dev/ttyACM0')
 
 def convRGB(hsv):
     rgb = colorsys.hsv_to_rgb(hsv[0],hsv[1],hsv[2]**2) #Convert HSV to RGB
